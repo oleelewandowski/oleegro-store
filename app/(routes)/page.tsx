@@ -6,12 +6,10 @@ import Container from "@/components/ui/container";
 
 export const revalidate = 0;
 
-const billboardId = process.env.BILLBOARD_ID || "";
-
 const PRODUCT_QUERY_FILTERS = { isFeatured: true };
 
 const HomePage = async () => {
-  const billboard = await getBillboard(billboardId);
+  const billboard = await getBillboard("663ec784-de3c-4f96-9f54-248b17a79a18");
   const products = await getProducts(PRODUCT_QUERY_FILTERS);
   return (
     <Container>
