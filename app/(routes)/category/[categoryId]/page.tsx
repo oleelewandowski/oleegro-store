@@ -4,10 +4,9 @@ import getProducts from "@/actions/get-products";
 import getSizes from "@/actions/get-sizes";
 import Billboard from "@/components/billboard";
 import Container from "@/components/ui/container";
-
-import Filter from "./components/filters";
 import NoResults from "@/components/ui/no-results";
 import ProductCard from "@/components/ui/product-card";
+import Filter from "./components/filters";
 import MobileFilters from "./components/mobile-filters";
 
 interface CategoryPageProps {

@@ -1,5 +1,6 @@
-import { Size } from "@/types";
 import axios from "axios";
+
+import { Size } from "@/types";
 
 const URL = `${process.env.NEXT_PUBLIC_API_URL}/sizes`;
 

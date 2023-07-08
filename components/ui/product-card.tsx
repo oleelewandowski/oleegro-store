@@ -1,12 +1,13 @@
 "use client";
 
-import { Product } from "@/types";
-import Image from "next/image";
-import IconButton from "@/components/ui/icon-button";
-import { Expand, ShoppingCart } from "lucide-react";
-import Currency from "@/components/ui/currency";
-import { useRouter } from "next/navigation";
 import { MouseEventHandler } from "react";
+import { Expand, ShoppingCart } from "lucide-react";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
+
+import { Product } from "@/types";
+import IconButton from "@/components/ui/icon-button";
+import Currency from "@/components/ui/currency";
 import usePreviewModal from "@/hooks/use-preview-modal";
 import useCart from "@/hooks/use-cart";
 

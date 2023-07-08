@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Introduction
 
-## Getting Started
+This project was developed in conjunction with the tutorial series available on the Code With Antonio YouTube channel. Its primary objective is to serve as an invaluable educational resource for individuals interested in mastering the creation of a robust ecommerce administration tool. As an integral component of this initiative, the store site has been meticulously crafted to ensure optimal learning outcomes.
 
-First, run the development server:
+## Deployment
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Click the [link](https://oleegro-store.vercel.app/) to see deployed Store.
+Click the [link](https://store-admin-olee.vercel.app/) to see deployed Admin Dashboard.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The OLEE E-commerce Dashboard and the OLEEGRO Store leverages the power of the following technologies:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Frontend: Next.js 13.4 with an App Router, TypeScript
+- Database: MySQL (PlanetScale)
+- ORM: Prisma
+- CSS: Tailwind CSS
+- HTTP Requests: Axios
+- State Management: Zustand
+- UI Components: shadcn, radix-ui
+- Authentication: Clerk
+- Dashboard Overview: Recharts
+- Forms: react-hook-form
+- Form Validation: Zod
+- Image Uploader: next-cloudinary
+- Payments: Stripe
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+The "OLEEGRO Store" is an online e-commerce platform that offers a range of products to customers. Built using a custom admin-dashboard, it provides a seamless shopping experience with various features to enhance usability and functionality.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Product Preview:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Users can view detailed information about the available products.
+- Display product images, descriptions, specifications, and pricing.
 
-## Deploy on Vercel
+# Shopping Cart:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Allow users to add products to their shopping cart.
+- Provide a visual representation of the items selected for purchase.
+- Enable users to review and modify the cart contents.
+- Update cart dynamically when adding or removing items.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Payment Processing:
+
+- Integration with a secure payment gateway for secure transactions.
+- Support for various payment methods, such as credit cards, debit cards, and digital wallets.
+- Enable users to complete the payment process smoothly.
+
+# Responsive Design:
+
+- Optimize the store's design to be responsive across devices.
+- Ensure a consistent and user-friendly experience on desktops, tablets, and mobile phones.
+- Adapt the layout, fonts, and images to fit different screen sizes.

@@ -1,9 +1,9 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
+import queryString from "query-string";
 
 import { Color, Size } from "@/types";
-import queryString from "query-string";
 import Button from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
