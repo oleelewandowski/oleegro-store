@@ -52,3 +52,8 @@ The "OLEEGRO Store" is an online e-commerce platform that offers a range of prod
 - Optimize the store's design to be responsive across devices.
 - Ensure a consistent and user-friendly experience on desktops, tablets, and mobile phones.
 - Adapt the layout, fonts, and images to fit different screen sizes.
+
+STORE:
+![image](https://github.com/oleelewandowski/oleegro-store/assets/104866200/dae7bb8b-b5e9-45b1-b01b-4b2786092f40)
+DASHBOARD:
+![image](https://github.com/oleelewandowski/oleegro-store/assets/104866200/9809f37b-8c50-4729-b722-344a38ac768b)
